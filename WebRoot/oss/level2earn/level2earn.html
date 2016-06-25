@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="gbk">
+<title>TT拾贝等级计算表</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+	window.onload = function() {
+
+		var table = document.getElementById("oCal");
+		var trs = table.getElementsByTagName("tr");
+		for ( var i = 0; i < trs.length; i++) {
+			var tr = trs[i];
+			if (i % 2 == 0) {
+				tr.className = 'alt';
+			}
+		}
+	};
+</script>
+</head>
+<style type="text/css">
+body {
+	background: #FBFBFB;
+	color: #3F3F3F;
+	font-size: 14px;
+}
+
+#oCal {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: 150%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#oCal td,#oCal th {
+	font-weight: normal; white-space : nowrap;
+	font-size: 1em;
+	border: 1px solid #E2E1E1;
+	padding: 3px 7px 2px 7px;
+	white-space: nowrap;
+}
+
+#oCal th {
+	font-size: 1.1em;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	background-color: #FC4B4B;
+	color: #ffffff;
+}
+
+#oCal tr.alt td {
+	color: #000000;
+	background-color: #F8F8F8;
+}
+
+img {
+	margin-left: 2px;
+}
+
+img.arrowImg {
+	margin-left: 2px;
+	margin-bottom: 3px;
+}
+</style>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar"
+	data-twttr-rendered="true">
+	<span style="font-size:16px;">等级规则：</span>
+	<div
+		style="width:100%; height:1px; background:#FC4B4B;margin:0 0 10px 0;"></div>
+	<span>等级从低到高为依次为海贝<img width="10" src="icon_level1.png" />、骨贝<img
+		width="10" src="icon_level2.png" />、铜贝<img width="10"
+		src="icon_level3.png" />、银贝<img width="10" src="icon_level4.png" />、金贝<img
+		width="10" src="icon_level5.png" />。每积累四个低等级的海贝会升级为一个高等级的海贝：</span>
+	<div style="padding:10px 0 0 10px;">
+		<img width="10" src="icon_level1.png" /> <img width="10"
+			src="icon_level1.png" /> <img width="10" src="icon_level1.png" /> <img
+			width="10" src="icon_level1.png" /> <img width="10" src="r.png"
+			class="arrowImg" /> <img width="10" src="icon_level2.png" /> <br />
+		<img width="10" src="icon_level2.png" /> <img width="10"
+			src="icon_level2.png" /> <img width="10" src="icon_level2.png" /> <img
+			width="10" src="icon_level2.png" /> <img width="10" src="r.png"
+			class="arrowImg" /> <img width="10" src="icon_level3.png" /> <br />
+		<img width="10" src="icon_level3.png" /> <img width="10"
+			src="icon_level3.png" /> <img width="10" src="icon_level3.png" /> <img
+			width="10" src="icon_level3.png" /> <img width="10" src="r.png"
+			class="arrowImg" /> <img width="10" src="icon_level4.png" /> <br />
+		<img width="10" src="icon_level4.png" /> <img width="10"
+			src="icon_level4.png" /> <img width="10" src="icon_level4.png" /> <img
+			width="10" src="icon_level4.png" /> <img width="10" src="r.png"
+			class="arrowImg" /> <img width="10" src="icon_level5.png" /> <br />
+		<img width="10" src="icon_level2.png" /> <span>=1级。</span>
+	</div>
+	<br />
+	<br />
+	<span style="font-size:16px;">升级能给我带来什么好处？</span>
+	<div
+		style="width:100%; height:1px; background:#FC4B4B;margin:0 0 10px 0;"></div>
+	<span>随着等级的提高，您将会拥有更多获取利益的资本，TT拾贝也会在后续的成长中为高等级的您提供更多的优惠策略。目前，等级不用的用户每天可观赏视频广告的数目会有所不同：</span>
+	<div style="width:100%;overflow-x:auto;">
+		<table id="oCal">
+			<thead>
+				<tr>
+					<th>级数</th>
+					<th>图标</th>
+					<th>模式</th>
+					<th>视频(个)</th>
+					<th>日赚(元)</th>
+					<th>月赚(元)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1级</td>
+					<td><img width="10" src="icon_level2.png" />
+					</td>
+					<td>9+6+3</td>
+					<td>6</td>
+					<td>1.08</td>
+					<td class="rightTD topTD">32.4</td>
+				</tr>
+				<tr>
+					<td>4级</td>
+					<td><img width="10" src="icon_level3.png" />
+					</td>
+					<td>10+7+4</td>
+					<td>7</td>
+					<td>1.47</td>
+					<td>44.1</td>
+				</tr>
+				<tr>
+					<td>8级</td>
+					<td><img width="10" src="icon_level3.png" /><img width="10"
+						src="icon_level3.png" />
+					</td>
+					<td>11+8+5</td>
+					<td>8</td>
+					<td>1.92</td>
+					<td>57.6</td>
+				</tr>
+				<tr>
+					<td>12级</td>
+					<td><img width="10" src="icon_level3.png" /><img width="10"
+						src="icon_level3.png" /><img width="10" src="icon_level3.png" />
+					</td>
+					<td>12+9+6</td>
+					<td>9</td>
+					<td>2.43</td>
+					<td>72.9</td>
+				</tr>
+				<tr>
+					<td>16级</td>
+					<td><img width="10" src="icon_level4.png" />
+					</td>
+					<td>13+10+7</td>
+					<td>10</td>
+					<td>3</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>32级</td>
+					<td><img width="10" src="icon_level4.png" /><img width="10"
+						src="icon_level4.png" />
+					</td>
+					<td>14+11+8</td>
+					<td>11</td>
+					<td>3.63</td>
+					<td>108.9</td>
+				</tr>
+				<tr>
+					<td>48级</td>
+					<td><img width="10" src="icon_level4.png" /><img width="10"
+						src="icon_level4.png" /><img width="10" src="icon_level4.png" />
+					</td>
+					<td>15+12+9</td>
+					<td>12</td>
+					<td>4.32</td>
+					<td>129.6</td>
+				</tr>
+				<tr>
+					<td>64级</td>
+					<td><img width="10" src="icon_level5.png" />
+					</td>
+					<td>16+13+10</td>
+					<td>13</td>
+					<td>5.07</td>
+					<td>152.1</td>
+				</tr>
+				<tr>
+					<td>128级</td>
+					<td><img width="10" src="icon_level5.png" /><img width="10"
+						src="icon_level5.png" />
+					</td>
+					<td>17+14+11</td>
+					<td>14</td>
+					<td>5.88</td>
+					<td>176.4</td>
+				</tr>
+				<tr>
+					<td>192级</td>
+					<td><img width="10" src="icon_level5.png" /><img width="10"
+						src="icon_level5.png" /><img width="10" src="icon_level5.png" />
+					</td>
+					<td>18+15+12</td>
+					<td>15</td>
+					<td>6.75</td>
+					<td>202.5</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<br />
+	<span>以表中的第一条记录说明，当用户等级为1时，观看视频模式9+6+3，表明同一视频在一天内可有效观看3次。第一次可获得9分，第二次可获得6分，第三次可获得3分，该视频在当天最多可获得0.18元的收益；当天可以看6个不同的广告，当天最大收益为0.18*6=1.08元。
+	</span>
+</body>
+</html>
